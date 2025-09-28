@@ -1,0 +1,36 @@
+{
+  "name": "anonscholar-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "dev:mock": "npm run ishhrunning && npm run clean && npm run genabi && next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "clean": "rimraf .next",
+    "genabi": "node ./scripts/genabi.mjs",
+    "ishhrunning": "node ./scripts/is-hardhat-node-running.mjs"
+  },
+  "dependencies": {
+    "@zama-fhe/relayer-sdk": "0.2.0",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "ethers": "^6.13.4",
+    "idb": "^8.0.3",
+    "next": "^15.4.2",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "rimraf": "^6.0.1",
+    "typescript": "^5"
+  },
+  "devDependencies": {
+    "@fhevm/mock-utils": "0.1.0",
+    "autoprefixer": "^10.0.1",
+    "eslint": "^9",
+    "eslint-config-next": "15.1.0",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1"
+  }
+}

@@ -1,0 +1,64 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [ main, master ]
+  workflow_dispatch:
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
+    env:
+      REPO_NAME: ${{ github.event.repository.name }}
+      OWNER_NAME: ${{ github.repository_owner }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+          cache-dependency-path: |
+            action/frontend/package-lock.json
+            action/fhevm-hardhat-template/package-lock.json
+
+      - name: Install dependencies
+        working-directory: action/frontend
+        run: npm ci
+
+      - name: Derive basePath
+        id: derive
+        run: |
+          if [[ "${OWNER_NAME}.github.io" == "${REPO_NAME}" ]]; then
+            echo "base_path=" >> $GITHUB_OUTPUT
+          else
+            echo "base_path=/${REPO_NAME}" >> $GITHUB_OUTPUT
+          fi
+          echo "Using base_path='${{ steps.derive.outputs.base_path }}'"
+
+      - name: Build static site
+        working-directory: action/frontend
+        env:
+          NEXT_PUBLIC_BASE_PATH: ${{ steps.derive.outputs.base_path }}
+        run: |
+          npm run build
+
+      - name: Prepare artifact
+        run: |
+          mkdir -p dist
+          cp -r action/frontend/out/* dist/
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v4
+

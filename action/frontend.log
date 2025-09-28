@@ -1,0 +1,155 @@
+
+> anonscholar-frontend@0.1.0 dev:mock
+> npm run ishhrunning && npm run clean && npm run genabi && next dev --turbopack
+
+
+> anonscholar-frontend@0.1.0 ishhrunning
+> node ./scripts/is-hardhat-node-running.mjs
+
+🔍 Checking if Hardhat node is running...
+✅ Hardhat node is running on http://127.0.0.1:8545
+📊 Chain ID: 31337
+
+> anonscholar-frontend@0.1.0 clean
+> rimraf .next
+
+
+> anonscholar-frontend@0.1.0 genabi
+> node ./scripts/genabi.mjs
+
+🔧 Generating ABI files for AnonScholar...
+📄 Processing AnonScholar...
+✅ Generated: /Users/toolboxb/Desktop/ZAMA/project/匿名问答平台/action/frontend/abi/AnonScholarABI.ts
+📍 Found deployment address: 0x5FbDB2315678afecb367f032d93F642f64180aa3
+✅ Generated: /Users/toolboxb/Desktop/ZAMA/project/匿名问答平台/action/frontend/abi/AnonScholarAddresses.ts
+✅ Generated: /Users/toolboxb/Desktop/ZAMA/project/匿名问答平台/action/frontend/abi/index.ts
+🎉 ABI generation completed!
+ ⚠ The config property `experimental.turbo` is deprecated. Move this setting to `config.turbopack` or run `npx @next/codemod@latest next-experimental-turbo-to-turbopack .`
+   ▲ Next.js 15.5.3 (Turbopack)
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.1.225:3000
+   - Experiments (use with caution):
+     · turbo
+
+ ✓ Starting...
+ ✓ Ready in 654ms
+ ○ Compiling / ...
+ ✓ Compiled / in 1334ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET / 200 in 1499ms
+ ✓ Compiled /ask in 374ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /ask. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /ask 200 in 497ms
+ ✓ Compiled in 9ms
+ ✓ Compiled /questions in 225ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /questions. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /questions 200 in 312ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /questions. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /questions 200 in 210ms
+ ✓ Compiled in 59ms
+ ✓ Compiled in 80ms
+ ✓ Compiled in 53ms
+ ✓ Compiled in 47ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /questions. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /questions 200 in 201ms
+ ✓ Compiled in 9ms
+ ✓ Compiled in 4ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /questions. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /questions 200 in 201ms
+ ✓ Compiled in 49ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /questions. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /questions 200 in 277ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /ask. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /ask 200 in 187ms
+ ✓ Compiled in 55ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /ask. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /ask 200 in 172ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /ask. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /ask 200 in 82ms
+ ✓ Compiled in 6ms
+ ✓ Compiled in 8ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /ask. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /ask 200 in 312ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /ask. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /ask 200 in 78ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /questions. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /questions 200 in 203ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /ask. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /ask 200 in 61ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /ask. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /ask 200 in 47ms
+ ✓ Compiled in 6ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /ask. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /ask 200 in 207ms
+ ✓ Compiled in 4ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /questions. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /questions 200 in 223ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /questions. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /questions 200 in 56ms
+ ✓ Compiled in 54ms
+ ✓ Compiled in 7ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /questions. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /questions 200 in 204ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /ask. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /ask 200 in 175ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /questions. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /questions 200 in 73ms
+ ✓ Compiled in 6ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /questions. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /questions 200 in 202ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /ask. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /ask 200 in 173ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /questions. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /questions 200 in 90ms
+ ✓ Compiled in 3ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /questions. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /questions 200 in 204ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /ask. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /ask 200 in 190ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /questions. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /questions 200 in 106ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /ask. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /ask 200 in 75ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /questions. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /questions 200 in 81ms
+ ✓ Compiled in 47ms
+ ✓ Compiled in 6ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /questions. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /questions 200 in 200ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /ask. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /ask 200 in 184ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /questions. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /questions 200 in 62ms
+[?25h

@@ -1,0 +1,422 @@
+
+> anonscholar-frontend@0.1.0 dev
+> next dev --turbopack
+
+ ⚠ The config property `experimental.turbo` is deprecated. Move this setting to `config.turbopack` or run `npx @next/codemod@latest next-experimental-turbo-to-turbopack .`
+   ▲ Next.js 15.5.3 (Turbopack)
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.1.225:3000
+   - Experiments (use with caution):
+     · turbo
+
+ ✓ Starting...
+ ✓ Ready in 654ms
+ ○ Compiling /questions ...
+ ✓ Compiled /questions in 1475ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /questions. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /questions 200 in 1694ms
+ ✓ Compiled / in 159ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET / 200 in 205ms
+ ✓ Compiled /ask in 158ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /ask. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /ask 200 in 183ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET / 200 in 60ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /ask. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /ask 200 in 40ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /questions. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /questions 200 in 66ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET / 200 in 35ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /ask. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /ask 200 in 37ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /questions. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /questions 200 in 60ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /ask. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /ask 200 in 62ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /questions. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /questions 200 in 59ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /questions. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /questions 200 in 66ms
+ ✓ Compiled in 39ms
+ ✓ Compiled in 8ms
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ⚠ Unsupported metadata viewport is configured in metadata export in /questions. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ✓ Compiled in 7ms
+ ⨯ ReferenceError: decryptUint32 is not defined
+    at useAnonScholar (hooks/useAnonScholar.tsx:519:20)
+    at QuestionsPage (app/questions/page.tsx:11:37)
+  517 |       return null;
+  518 |     }
+> 519 |   }, [anonScholar, decryptUint32]);
+      |                    ^
+  520 |
+  521 |   useEffect(() => {
+  522 |     if (anonScholar) { {
+  digest: '2384110614'
+}
+ ⚠ Unsupported metadata viewport is configured in metadata export in /questions. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /questions 500 in 262ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /questions. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⨯ ReferenceError: decryptUint32 is not defined
+    at useAnonScholar (hooks/useAnonScholar.tsx:519:20)
+    at QuestionsPage (app/questions/page.tsx:11:37)
+  517 |       return null;
+  518 |     }
+> 519 |   }, [anonScholar, decryptUint32]);
+      |                    ^
+  520 |
+  521 |   useEffect(() => {
+  522 |     if (anonScholar) { {
+  digest: '2384110614'
+}
+ ⚠ Unsupported metadata viewport is configured in metadata export in /questions. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /questions 500 in 72ms
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ⚠ Unsupported metadata viewport is configured in metadata export in /questions. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ✓ Compiled in 66ms
+ ⨯ ReferenceError: decryptUint32 is not defined
+    at useAnonScholar (hooks/useAnonScholar.tsx:519:20)
+    at QuestionsPage (app/questions/page.tsx:11:37)
+  517 |       return null;
+  518 |     }
+> 519 |   }, [anonScholar, decryptUint32]);
+      |                    ^
+  520 |
+  521 |   useEffect(() => {
+  522 |     if (anonScholar) { {
+  digest: '2384110614'
+}
+ ⚠ Unsupported metadata viewport is configured in metadata export in /questions. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /questions 500 in 182ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /questions. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⨯ ReferenceError: decryptUint32 is not defined
+    at useAnonScholar (hooks/useAnonScholar.tsx:519:20)
+    at QuestionsPage (app/questions/page.tsx:11:37)
+  517 |       return null;
+  518 |     }
+> 519 |   }, [anonScholar, decryptUint32]);
+      |                    ^
+  520 |
+  521 |   useEffect(() => {
+  522 |     if (anonScholar) { {
+  digest: '2384110614'
+}
+ ⚠ Unsupported metadata viewport is configured in metadata export in /questions. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /questions 500 in 112ms
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ✓ Compiled in 52ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /questions. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⨯ ReferenceError: decryptUint32 is not defined
+    at useAnonScholar (hooks/useAnonScholar.tsx:519:20)
+    at QuestionsPage (app/questions/page.tsx:11:37)
+  517 |       return null;
+  518 |     }
+> 519 |   }, [anonScholar, decryptUint32]);
+      |                    ^
+  520 |
+  521 |   useEffect(() => {
+  522 |     if (anonScholar) { {
+  digest: '2384110614'
+}
+ ⚠ Unsupported metadata viewport is configured in metadata export in /questions. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /questions 500 in 214ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /questions. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⨯ ReferenceError: decryptUint32 is not defined
+    at useAnonScholar (hooks/useAnonScholar.tsx:519:20)
+    at QuestionsPage (app/questions/page.tsx:11:37)
+  517 |       return null;
+  518 |     }
+> 519 |   }, [anonScholar, decryptUint32]);
+      |                    ^
+  520 |
+  521 |   useEffect(() => {
+  522 |     if (anonScholar) { {
+  digest: '2384110614'
+}
+ ⚠ Unsupported metadata viewport is configured in metadata export in /questions. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /questions 500 in 141ms
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ⚠ Unsupported metadata viewport is configured in metadata export in /questions. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ✓ Compiled in 49ms
+ ⨯ ReferenceError: decryptUint32 is not defined
+    at useAnonScholar (hooks/useAnonScholar.tsx:519:20)
+    at QuestionsPage (app/questions/page.tsx:11:37)
+  517 |       return null;
+  518 |     }
+> 519 |   }, [anonScholar, decryptUint32]);
+      |                    ^
+  520 |
+  521 |   useEffect(() => {
+  522 |     if (anonScholar) { {
+  digest: '2384110614'
+}
+ ⚠ Unsupported metadata viewport is configured in metadata export in /questions. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /questions 500 in 195ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /questions. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⨯ ReferenceError: decryptUint32 is not defined
+    at useAnonScholar (hooks/useAnonScholar.tsx:519:20)
+    at QuestionsPage (app/questions/page.tsx:11:37)
+  517 |       return null;
+  518 |     }
+> 519 |   }, [anonScholar, decryptUint32]);
+      |                    ^
+  520 |
+  521 |   useEffect(() => {
+  522 |     if (anonScholar) { {
+  digest: '2384110614'
+}
+ ⚠ Unsupported metadata viewport is configured in metadata export in /questions. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /questions 500 in 149ms
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ⚠ Unsupported metadata viewport is configured in metadata export in /questions. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ✓ Compiled in 44ms
+ ⨯ ReferenceError: decryptUint32 is not defined
+    at useAnonScholar (hooks/useAnonScholar.tsx:519:20)
+    at QuestionsPage (app/questions/page.tsx:11:37)
+  517 |       return null;
+  518 |     }
+> 519 |   }, [anonScholar, decryptUint32]);
+      |                    ^
+  520 |
+  521 |   useEffect(() => {
+  522 |     if (anonScholar) { {
+  digest: '2384110614'
+}
+ ⚠ Unsupported metadata viewport is configured in metadata export in /questions. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /questions 500 in 190ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /questions. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⨯ ReferenceError: decryptUint32 is not defined
+    at useAnonScholar (hooks/useAnonScholar.tsx:519:20)
+    at QuestionsPage (app/questions/page.tsx:11:37)
+  517 |       return null;
+  518 |     }
+> 519 |   }, [anonScholar, decryptUint32]);
+      |                    ^
+  520 |
+  521 |   useEffect(() => {
+  522 |     if (anonScholar) { {
+  digest: '2384110614'
+}
+ ⚠ Unsupported metadata viewport is configured in metadata export in /questions. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /questions 500 in 142ms
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ⚠ Unsupported metadata viewport is configured in metadata export in /questions. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ✓ Compiled in 4ms
+ ⨯ ReferenceError: decryptUint32 is not defined
+    at useAnonScholar (hooks/useAnonScholar.tsx:519:20)
+    at QuestionsPage (app/questions/page.tsx:11:37)
+  517 |       return null;
+  518 |     }
+> 519 |   }, [anonScholar, decryptUint32]);
+      |                    ^
+  520 |
+  521 |   useEffect(() => {
+  522 |     if (anonScholar) { {
+  digest: '2384110614'
+}
+ ⚠ Unsupported metadata viewport is configured in metadata export in /questions. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /questions 500 in 215ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /questions. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⨯ ReferenceError: decryptUint32 is not defined
+    at useAnonScholar (hooks/useAnonScholar.tsx:519:20)
+    at QuestionsPage (app/questions/page.tsx:11:37)
+  517 |       return null;
+  518 |     }
+> 519 |   }, [anonScholar, decryptUint32]);
+      |                    ^
+  520 |
+  521 |   useEffect(() => {
+  522 |     if (anonScholar) { {
+  digest: '2384110614'
+}
+ ⚠ Unsupported metadata viewport is configured in metadata export in /questions. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /questions 500 in 135ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /questions. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⨯ ReferenceError: decryptUint32 is not defined
+    at useAnonScholar (hooks/useAnonScholar.tsx:519:20)
+    at QuestionsPage (app/questions/page.tsx:11:37)
+  517 |       return null;
+  518 |     }
+> 519 |   }, [anonScholar, decryptUint32]);
+      |                    ^
+  520 |
+  521 |   useEffect(() => {
+  522 |     if (anonScholar) { {
+  digest: '2384110614'
+}
+ ⚠ Unsupported metadata viewport is configured in metadata export in /questions. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /questions 500 in 92ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /ask. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⨯ ReferenceError: decryptUint32 is not defined
+    at useAnonScholar (hooks/useAnonScholar.tsx:519:20)
+    at AskPage (app/ask/page.tsx:10:37)
+  517 |       return null;
+  518 |     }
+> 519 |   }, [anonScholar, decryptUint32]);
+      |                    ^
+  520 |
+  521 |   useEffect(() => {
+  522 |     if (anonScholar) { {
+  digest: '3805313145'
+}
+ ⚠ Unsupported metadata viewport is configured in metadata export in /ask. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /ask 500 in 225ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /questions. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⨯ ReferenceError: decryptUint32 is not defined
+    at useAnonScholar (hooks/useAnonScholar.tsx:519:20)
+    at QuestionsPage (app/questions/page.tsx:11:37)
+  517 |       return null;
+  518 |     }
+> 519 |   }, [anonScholar, decryptUint32]);
+      |                    ^
+  520 |
+  521 |   useEffect(() => {
+  522 |     if (anonScholar) { {
+  digest: '2384110614'
+}
+ ⚠ Unsupported metadata viewport is configured in metadata export in /questions. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /questions 500 in 187ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /ask. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⨯ ReferenceError: decryptUint32 is not defined
+    at useAnonScholar (hooks/useAnonScholar.tsx:519:20)
+    at AskPage (app/ask/page.tsx:10:37)
+  517 |       return null;
+  518 |     }
+> 519 |   }, [anonScholar, decryptUint32]);
+      |                    ^
+  520 |
+  521 |   useEffect(() => {
+  522 |     if (anonScholar) { {
+  digest: '3805313145'
+}
+ ⚠ Unsupported metadata viewport is configured in metadata export in /ask. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /ask 500 in 76ms
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ⚠ Unsupported metadata viewport is configured in metadata export in /questions. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ✓ Compiled in 22ms
+ ⨯ ReferenceError: Cannot access 'loadAnswerVotes' before initialization
+    at QuestionsPage (app/questions/page.tsx:58:20)
+  56 |       await loadAnswerVotes(answerId);
+  57 |     }
+> 58 |   }, [anonScholar, loadAnswerVotes]);
+     |                    ^
+  59 |
+  60 |   const handleVote = useCallback(async (questionId: number, answerId: number, isUpvote: boolean) => {
+  61 |     await anonScholar.voteAnswer(questionId, answerId, isUpvote); {
+  digest: '2015790438'
+}
+ ⚠ Unsupported metadata viewport is configured in metadata export in /questions. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata viewport is configured in metadata export in /ask. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /questions 500 in 310ms
+ GET /ask 200 in 313ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /ask. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /ask 200 in 72ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /questions. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⨯ ReferenceError: Cannot access 'loadAnswerVotes' before initialization
+    at QuestionsPage (app/questions/page.tsx:58:20)
+  56 |       await loadAnswerVotes(answerId);
+  57 |     }
+> 58 |   }, [anonScholar, loadAnswerVotes]);
+     |                    ^
+  59 |
+  60 |   const handleVote = useCallback(async (questionId: number, answerId: number, isUpvote: boolean) => {
+  61 |     await anonScholar.voteAnswer(questionId, answerId, isUpvote); {
+  digest: '2015790438'
+}
+ ⚠ Unsupported metadata viewport is configured in metadata export in /questions. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /questions 500 in 94ms
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ⚠ Unsupported metadata viewport is configured in metadata export in /questions. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ✓ Compiled in 25ms
+ ⨯ ReferenceError: Cannot access 'loadAnswerVotes' before initialization
+    at QuestionsPage (app/questions/page.tsx:58:20)
+  56 |       await loadAnswerVotes(answerId);
+  57 |     }
+> 58 |   }, [anonScholar, loadAnswerVotes]);
+     |                    ^
+  59 |
+  60 |   const handleVote = useCallback(async (questionId: number, answerId: number, isUpvote: boolean) => {
+  61 |     await anonScholar.voteAnswer(questionId, answerId, isUpvote); {
+  digest: '3006068903'
+}
+ ⚠ Unsupported metadata viewport is configured in metadata export in /questions. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ✓ Compiled in 4ms
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ GET /questions 500 in 359ms
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ✓ Compiled in 191ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /questions. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /questions 200 in 450ms
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ⚠ Unsupported metadata viewport is configured in metadata export in /questions. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ✓ Compiled in 16ms
+ GET /questions 200 in 235ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /questions. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /questions 200 in 75ms
+[?25h
